@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar__scroll {
+    margin-top: 10px;
+    margin-left: 10px;
+    transform: scale(1.5);
+    color: white;
+}
+
+.navbar__homepage {
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transform: scale(1.5);
+    color: white;
+}
+
+.flipbook1 {
+    position: absolute;
+    transform: scale(0.5);
+    right: 0%;
+}
+
+
+.flipbook2 {
+    position: absolute;
+    transform: scale(0.5);
+    left: 0%;
+}
+
+.title__box {
+    height: 217px;
+    width: 60%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 68px;
+}
+
+.title__box__text {
+    padding-top: 15px;
+    font-family: consolas;
+    font-size: 96px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.semi__title__box {
+    font-family: consolas;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.album__collage {
+    margin-bottom: -20px;
+}
+
+.collage {
+    margin-top: -95px;
+    display: flex;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 100%;
+    transform: scale(0.75);
+}
+
+.divider__ac {
+    width: 80%;
+    text-align: center;
+}
+
+.box__title {
+    margin-top: 70px;
+    text-align: center;
+    font-family: consolas;
+    font-size: 24px;
+}
+
+.box__artists {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.box__artists__add {
+    text-align: center;
+    font-family: consolas;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    width: 20%;
+    height: flex;
+    background-color: #45E986;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box {
+    margin-bottom: 200px;
+    background-color: #1F1515;
+    height: 925px;
+    padding-top: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: consolas;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
