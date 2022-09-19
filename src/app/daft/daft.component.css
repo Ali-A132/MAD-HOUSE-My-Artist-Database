@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #1F1515;
+}
+
+.navbar__bottom {
+    height: 50px;
+    width: 100%;
+    background-color: #1F1515;
+    margin-top: 100px;
+}
+
+.navbar__scroll {
+    margin-top: 10px;
+    margin-left: 10px;
+    transform: scale(1.5);
+    color: white;
+}
+
+.navbar__homepage {
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transform: scale(1.5);
+    color: white;
+}
+
+.punk {
+    transform: scale(0.6);
+    margin-top: -60px;
+
+
+}
+
+.header {
+    margin: auto;
+    height: 550px;
+}
+
+.title {
+    font-family: consolas;
+    font-size: 48px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+    position: flex;
+}
+
+.title__box {
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 550px;
+    background-color:black;
+    height: 80px;
+    width: 280px;
+}
+
+.bio {
+    font-family: consolas;
+    position: flex;
+    margin-left: 550px;
+    height: 80px;
+    width: 50%;
+    font-size: 26px;
+    margin-top: -400px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.name__box {
+    position: flex;
+    margin-left: 128px;
+    background-color:black;
+    height: 80px;
+    width: fit-content;
+    margin-bottom: 20px;
+    padding-right: 25px;
+}
+
+.interview {
+    font-family: consolas;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-left: 25px;
+    color: white;
+    position: flex;
+}
+
+.group__row {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.clip {
+    background-color: #D9D9D9;
+    width: 407px;
+    margin-left: 128px;
+    height: 229px;
+}
+
+.clip2 {
+    margin-left: 43px;
+    background-color: #D9D9D9;
+    width: 407px;
+    height: 229px;
+}
+
+.group__text {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.clip__text {
+    margin-left: 128px;
+    font-family: consolas;
+    font-size: 24px;
+    width: 407px;
+    margin-top: -70px;
+}
+
+.clip2__text {
+    margin-left: 43px;
+    font-family: consolas;
+    font-size: 24px;
+    width: 407px;
+    margin-top: -70px;
+}
