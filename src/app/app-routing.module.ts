@@ -3,10 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import{DaftComponent} from '../app/daft/daft.component';
 import { HomeComponent } from './home/home.component';
 
+
 const routes: Routes = [
   {
     path:'daft',
-    component: DaftComponent
+    component: DaftComponent,
   },
   {
     path: '',
@@ -15,7 +16,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+
+  exports: [RouterModule],
+  imports: [RouterModule.forRoot(routes,{
+    scrollPositionRestoration: 'top'
+  })],
 })
 export class AppRoutingModule { }

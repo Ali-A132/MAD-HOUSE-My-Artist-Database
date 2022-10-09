@@ -1,7 +1,11 @@
 <div class="container">
     <div class="navbar">
-      <mat-icon class="navbar__scroll">arrow_downward</mat-icon>
-      <mat-icon class="navbar__homepage">home</mat-icon>
+      <a href="#down"  style="text-decoration:none">
+        <mat-icon class="navbar__scroll">arrow_downward</mat-icon>
+      </a>
+      <button id = "top" class="navbar__homepage" onClick="window.location.reload();">
+        <mat-icon>home</mat-icon>
+      </button>
     </div>
     
     <img class='flipbook1' src="assets/images/flipbook.gif">
@@ -38,12 +42,14 @@
       <div class="box__artists">Tyler, The Creator</div>
       <div class="box__artists">Hiatus Kaiyote</div>
       <div class="box__artists__add">
-        <div>ADD MORE +</div>
+        <div id = "down">ADD MORE +</div>
       </div>
     </div>
   
     <div class="navbar">
-      <mat-icon class="navbar__scroll">arrow_upward</mat-icon>
+      <a href="#top">
+        <mat-icon class="navbar__scroll">arrow_upward</mat-icon>
+      </a>
     </div>
   </div>
   
